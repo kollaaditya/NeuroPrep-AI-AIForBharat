@@ -1,94 +1,101 @@
-                                     NeuroPrep AI - System Requirements
+# NeuroPrep AI – System Requirements
 
-1. Problem Statement
+## 1. Problem Statement
 
-India has one of the largest competitive exam ecosystems (JEE, NEET, GATE, UPSC, campus placements). 
-Students focus heavily on content preparation but lack cognitive performance optimization.
+India’s competitive exam ecosystem is content-focused but strategy-blind.
 
-Current platforms such as BYJU'S, Unacademy, and PhysicsWallah focus on content delivery and mock testing, 
-but they do not analyze behavioral patterns like cognitive fatigue, stress response, time mismanagement, 
-or panic-driven errors.
+Students prepare academically but fail due to:
+- Cognitive fatigue
+- Time mismanagement
+- Panic-driven decision making
+- Strategy inefficiency
 
-There is a need for an AI-powered system that evaluates not just knowledge, 
-but cognitive and strategic performance under exam conditions.
+Existing platforms focus on mock testing and content delivery but lack behavioral intelligence analysis.
 
+There is a need for an AI-driven system that evaluates cognitive performance patterns and optimizes exam strategy.
 
+---
 
- 2. Target Users
+## 2. Target Users
 
--> JEE Aspirants
--> NEET Aspirants
--> GATE Aspirants
--> Government Exam Aspirants
--> College Placement Candidates
--> Coaching Institutes (Future Expansion)
+- JEE Aspirants
+- NEET Aspirants
+- GATE Aspirants
+- Government Exam Candidates
+- Placement Preparation Students
+- Coaching Institutes (Phase 2)
 
+---
 
- 3. Proposed Solution
+## 3. Proposed Solution
 
 NeuroPrep AI is an AI-powered Cognitive Intelligence Coach that:
 
--> Analyzes mock test performance
--> Detects cognitive fatigue patterns
--> Identifies stress-triggered performance drops
--> Optimizes exam strategy
--> Simulates high-pressure exam environments
+- Analyzes behavioral patterns across mock tests
+- Detects fatigue thresholds and stress impact
+- Identifies strategic inefficiencies
+- Generates adaptive simulation scenarios
+- Predicts performance trajectory
 
+---
 
-4. Core Functional Requirements
+## 4. Functional Requirements
 
-  4.1 Cognitive Pattern Engine
-      -> Analyze time per question
-      -> Detect accuracy drop patterns
-      -> Identify difficulty-level performance clusters
-      -> Measure fatigue onset threshold
+### 4.1 Cognitive Pattern Engine
+- Track time distribution per difficulty
+- Detect accuracy drift over exam duration
+- Identify question-attempt sequencing patterns
+- Estimate guess probability
 
-  4.2 Adaptive Exam Simulation
-    -> Dynamically adjust question difficulty
-    -> Introduce timed pressure conditions
-    -> Simulate realistic exam environments
+### 4.2 Adaptive Simulation Engine
+- Dynamic difficulty adjustment
+- Time-pressure scenarios
+- Realistic exam environment modeling
 
-  4.3 Mental Resilience Scoring
-    -> Generate Focus Stability Index
-    -> Generate Stress Sensitivity Score
-    -> Generate Strategic Discipline Rating
+### 4.3 Cognitive Intelligence Scoring
+- Focus Stability Index
+- Stress Sensitivity Score
+- Strategic Discipline Score
 
-  4.4 AI Strategy Optimizer
-    -> Recommend section attempt order
-    -> Suggest time allocation improvements
-    -> Identify high-risk guessing behavior
+### 4.4 Strategy Optimization Module
+- Section attempt recommendations
+- Time allocation refinement
+- Risk management suggestions
 
-  4.5 Performance Forecast Engine
-    -> Predict score range
-    -> Estimate improvement timeline
-    -> Provide readiness percentage
+### 4.5 Forecasting Engine
+- Predicted score range
+- Improvement timeline
+- Readiness probability
 
+---
 
- 5. Non-Functional Requirements
+## 5. Non-Functional Requirements
 
--> Scalable architecture (support 10,000+ users)
--> Secure data storage
--> Response latency under 3 seconds
--> Responsible AI usage
--> Data privacy compliance
+- Support 10,000+ concurrent users
+- Sub-3 second AI response time
+- Secure cloud infrastructure
+- Responsible and explainable AI outputs
+- Data privacy compliance
 
-6. Why AI is Required
+---
 
-This solution requires AI for:
+## 6. Why AI is Required
 
--> Behavioral sequence pattern analysis
--> Cognitive performance modeling
--> Context-aware strategy recommendation
--> Adaptive simulation generation
--> Probabilistic forecasting
+Traditional systems use static scoring models.
 
-Rule-based systems cannot dynamically analyze cognitive behavior across sessions.
+NeuroPrep AI requires LLM-based reasoning for:
+- Sequential behavioral analysis
+- Context-aware cognitive modeling
+- Adaptive strategy generation
+- Probabilistic performance forecasting
 
+These capabilities cannot be implemented using rule-based logic alone.
 
-7. Expected Impact
+---
 
--> Improved exam performance
--> Reduced stress-driven mistakes
--> Better time management
--> Increased exam confidence
--> Scalable use across India’s exam ecosystem
+## 7. Expected Impact
+
+- Improved strategic performance
+- Reduced stress-driven score loss
+- Enhanced cognitive resilience
+- Scalable across India’s exam ecosystem
