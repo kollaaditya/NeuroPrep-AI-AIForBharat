@@ -20,9 +20,9 @@ Unlike traditional mock platforms, NeuroPrep AI evaluates *behavioral intelligen
                ↓
     Amazon Bedrock (LLM Cognitive Engine)
                ↓
-   DynamoDB (User Cognitive Profiles)
+    DynamoDB (User Cognitive Profiles)
                ↓
-   Amazon S3 (Mock Test Data Storage)
+     Amazon S3 (Mock Test Data Storage)
 
 
 ## 3. Detailed Data Flow
@@ -108,4 +108,5 @@ Outputs:
 - Coaching Institute Dashboard
 - Multi-language Support
 - Integration with national exam ecosystems
+
 
