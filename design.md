@@ -12,19 +12,18 @@ Unlike traditional mock platforms, NeuroPrep AI evaluates *behavioral intelligen
 
 ## 2. High-Level Architecture
 
-User (React Web Application)
-        ↓
-Amazon API Gateway
-        ↓
-AWS Lambda (Behavior Processing Layer)
-        ↓
-Amazon Bedrock (LLM Cognitive Engine)
-        ↓
-DynamoDB (User Cognitive Profiles)
-        ↓
-Amazon S3 (Mock Test Data Storage)
+       User (React Web Application)
+               ↓
+        Amazon API Gateway
+               ↓
+     AWS Lambda (Behavior Processing Layer)
+               ↓
+    Amazon Bedrock (LLM Cognitive Engine)
+               ↓
+   DynamoDB (User Cognitive Profiles)
+               ↓
+   Amazon S3 (Mock Test Data Storage)
 
----
 
 ## 3. Detailed Data Flow
 
@@ -109,3 +108,4 @@ Outputs:
 - Coaching Institute Dashboard
 - Multi-language Support
 - Integration with national exam ecosystems
+
